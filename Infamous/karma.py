@@ -46,27 +46,33 @@ MUTE_GIFS = [
     "https://te.legra.ph/file/ee2a903707ed78a37f70a.mp4",
 ]
 
-FIRST_PART_TEXT = "✨ *ʙᴜᴅᴅʏ🪄✨* `{}` . . ."
+FIRST_PART_TEXT = "✨ *𝐇ᴇʏ 𝐌ᴏɪɪɪ 𝐃ᴇᴀʀ~ ✨* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ˹ 𝐀ʟᴇxᴀ ✘ 𝗥𝙾𝙱𝙾 ˼, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "✨ *━━━━━━━━━━━━━━━━━━━━━━
+
+๏ ɪ ᴀᴍ 𝐀𝐋𝐄𝐗𝐀  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.
+
+๏  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴠᴄ ᴘʟᴀʏᴇʀ
+
+๏ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇʀ ʀᴏʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ sᴘᴇᴄɪғɪᴄ ᴛʜᴇᴍᴇ ʙᴀsᴇᴅ*"
 
 START_BTN = [
     [
         InlineKeyboardButton(
-            text="✨sᴜᴍᴍᴏɴ ᴍᴇ✨",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            text="ᴜᴘᴅᴀᴛᴇ",
+            url=f"https://t.me/strangers_bots",
         ),
     ],
     [
-        InlineKeyboardButton(text="🪄ᴄᴏᴍᴍᴀɴᴅs🪄", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="▫️ᴀʙᴏᴜᴛ▫️", callback_data="Miko_"),
-        InlineKeyboardButton(text="🔹ᴀɪ ʀᴏʙᴏ🔹", callback_data="ai_handler"),
-        InlineKeyboardButton(text="⚡sᴛʀᴀɴɢᴇʀ⚡", callback_data="git_source"),
+        InlineKeyboardButton(text="ᴀɪ ᴄᴏᴍᴍᴀɴᴅs ", callback_data="ai_handler"),
+        InlineKeyboardButton(text=" ᴠᴄ ᴄᴏᴍᴍᴀɴᴅs", callback_data="git_source"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/strangers_bots"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/AlexaProbot?startgroup=true"),
     ],
 ]
 
@@ -78,8 +84,8 @@ GROUP_START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="✨ʜᴏᴜsᴇ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="⚡ᴅᴇᴠ⚡", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ ᴄʜᴀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="ᴛʜᴇ sᴛʀᴀɴɢᴇʀ", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
