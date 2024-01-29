@@ -1,9 +1,9 @@
 {
-   "name": "ALEXA OP",
+   "name": "ALEXA ROBOT",
    "description": "A versatile Telegram Group Management Bot.",
    "logo": "https://te.legra.ph/file/112812d607b672c691aef.jpg",
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
-   "repository": "https://github.com/Shivasengar12/SHUKLA-ROBOT",
+   "repository": "https://github.com/Shivasengar12/SHUKLA-ROBOT-2.0",
    "stack": "heroku-22",
    "addons": [
       {
