@@ -36,12 +36,12 @@
       "EVENT_LOGS": {
          "description": "Channel for event logs to note down important bot-level events. Recommend making this public. Example: '-123456'",
          "required": true,
-         "value": "-1002018556839"
+         "value": "-1002044544487"
       },
       "MESSAGE_DUMP": {
          "description": "Support chat ID.",
          "required": true,
-         "value": "-1001766825642"
+         "value": "-1002044544487"
       },
       "MONGO_DB_URI": {
          "description": "Required for MongoDB database connections.",
@@ -51,22 +51,22 @@
       "DATABASE_URL": {
          "description": "Required for SQL database connections.",
          "required": true,
-         "value": "postgres://"
+         "value": "postgres://mqgueloc:TJdn6ocIJE1xitWq304OuV3pBl_sfBEN@salt.db.elephantsql.com/mqgueloc"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "6919199044"
+         "value": "6886160138"
       },
       "DEV_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "6762113050"
+         "value": "6886160138"
       },
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "6762113050"
+         "value": "6886160138"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -75,22 +75,22 @@
       "DEMONS": {
          "description": "A space separated list of user IDs who can use Gban From Your Bot",
          "required": false,
-         "value": "6762113050"
+         "value": "6886160138"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who can not be banned by your Bot",
          "required": false,
-         "value": "6762113050"
+         "value": "6886160138"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "6762113050"
+         "value": "6886160138"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username. Users will reach out for assistance. Example: MyGroupChatUsernameBlah. Avoid pointing to Miko Support to prevent conflicts.",
          "required": true,
-         "value": "mastiwithfriendsx"
+         "value": "Alexa_x_support"
       },
       "SUPPORT_ID": {
          "description": "Support chat ID.",
