@@ -32,7 +32,7 @@ def dt_tom():
 tomorrow = str(dt_tom())
 today = str(dt()[0])
 
-COUPLES_PIC = "https://telegra.ph/file/c6d0c884f559b9ed8a54e.jpg"
+COUPLES_PIC = "https://telegra.ph/file/a89d509c9919aa8135804.jpg"
 C = """
 ✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
 ➖➖➖➖➖➖➖➖➖➖➖➖
@@ -120,5 +120,5 @@ __help__ = """
 » /couple, /couples, /shipping *:* Choose 2 users and send their names as couples in your chat.
 """
 
-__mod_name__ = "COUPLE"
+__mod_name__ = "ᴄᴏᴜᴘʟᴇ"
 # <================================================ END =======================================================>
