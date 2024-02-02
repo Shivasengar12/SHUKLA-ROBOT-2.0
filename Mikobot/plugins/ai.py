@@ -49,7 +49,7 @@ async def palm_chatbot(update: Update, context: ContextTypes.DEFAULT_TYPE):
     input_text = " ".join(args)
 
     result_msg = await context.bot.send_message(
-        chat_id=update.effective_chat.id, text="🌴"
+        chat_id=update.effective_chat.id, text="✨"
     )
 
     api_params = {"model_id": PALM_MODEL_ID, "prompt": input_text}
@@ -71,7 +71,7 @@ async def gpt_chatbot(update: Update, context: ContextTypes.DEFAULT_TYPE):
     input_text = " ".join(args)
 
     result_msg = await context.bot.send_message(
-        chat_id=update.effective_chat.id, text="💬"
+        chat_id=update.effective_chat.id, text="⚡"
     )
 
     api_params = {"model_id": GPT_MODEL_ID, "prompt": input_text}
