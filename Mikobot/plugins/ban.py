@@ -327,7 +327,7 @@ async def dtban_usr(c: app, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "UNBAN",
+                        "ANOTHER CHANCE",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -398,7 +398,7 @@ async def kick_usr(c: app, m: Message):
         return
 
     if user_id == BOT_ID:
-        await m.reply_text("Huh, why would I kick myself?")
+        await m.reply_text("Huh, MADARCHOD MUJHE BAN KRLE TU PHELE")
         await m.stop_propagation()
 
     if user_id in SUPPORT_STAFF:
@@ -505,7 +505,7 @@ async def skick_usr(c: app, m: Message):
         admins_group = await admin_cache_reload(m, "kick")
 
     if user_id in admins_group:
-        await m.reply_text(text="This user is an admin, I cannot kick them!")
+        await m.reply_text(text="Tum Apas me Ladlo Pehle , I cannot kick them!")
         await m.stop_propagation()
 
     try:
