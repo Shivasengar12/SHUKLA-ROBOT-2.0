@@ -46,9 +46,9 @@ MUTE_GIFS = [
     "https://te.legra.ph/file/ee2a903707ed78a37f70a.mp4",
 ]
 
-FIRST_PART_TEXT = "✨ *𝐇ᴇʏ 𝐌ᴏɪɪɪ 𝐃ᴇᴀʀ~ ✨* `{}` . . ."
+FIRST_PART_TEXT = "*✨ 𝐇ᴇʏ 𝐌ᴏɪɪɪ 𝐃ᴇᴀʀ~ ✨* `{}` . . ."
 
-PM_START_TEXT = "✨ *━━━━━━━━━━━━━━━━━━━━━━
+PM_START_TEXT = "*✨ ━━━━━━━━━━━━━━━━━━━━━━
 
 ๏ ɪ ᴀᴍ 𝐀𝐋𝐄𝐗𝐀  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.
 
